@@ -1,12 +1,5 @@
 pipeline {
     agent any
-    
-    stages {
-        stage('Checkout') {
-            steps {
-                git 'https://github.com/Alex2004-ua/my_project_Alex.git'
-            }
-        }
         
     stages {
         stage('Build') {
